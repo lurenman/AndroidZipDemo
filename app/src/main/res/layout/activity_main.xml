@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="15dp"
+    tools:context="com.example.lurenman.androidzipdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_src_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="压缩原路径："
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_des_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="压缩目标路径："
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_src_upzip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="解压缩原路径："
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_des_upzip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="解压缩目标路径："
+        android:textColor="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="15dp"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/bt_zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始压缩"/>
+        <Button
+            android:id="@+id/bt_upzip"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始解压"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
